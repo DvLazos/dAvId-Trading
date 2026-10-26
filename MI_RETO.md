@@ -8,7 +8,7 @@ Haz el test de la guía de niveles del Día 1 y apunta tus dos números.
 
 | | Sistemático (1 a 5) | IA (0 a 5) |
 |---|---|---|
-| Domingo 25 · al empezar | | |
+| Domingo 25 · al empezar | 1 | 2 |
 | Jueves 29 · al terminar | | |
 
 Lo que hoy me frena para subir un escalón en sistemático:
@@ -35,10 +35,10 @@ Pídele estas tres cosas y anota en una línea qué te respondió y si respetó 
 
 ## Día 1 · Intro y Fast Start
 **Nivel 1 · Tu Cueva funcionando**
-- [ ] Mi copia privada de este repositorio creada en GitHub
+- [x] Mi copia privada de este repositorio creada en GitHub
 - [ ] Abierta en VS Code
-- [ ] Claude Code (o mi IA) funcionando dentro de la carpeta
-- [ ] Primer uso hecho (`/primer-uso`) y mis niveles escritos arriba
+- [x] Claude Code (o mi IA) funcionando dentro de la carpeta
+- [x] Primer uso hecho (`/primer-uso`) y mis niveles escritos arriba
 - [ ] Guardado en GitHub
 
 **Nivel 2 · Audítate**
