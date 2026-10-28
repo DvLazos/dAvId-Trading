@@ -11,6 +11,7 @@ Veredicto: **APTA CON AVISOS** para backtest
 
 ## Avisos
 - 42 saltos fuera de lo normal: revísalos en el gráfico (pueden ser reales).
+- Revisión visual del trader: los saltos parecen movimientos reales; se conservan sin cambios. No se verificaron de forma independiente.
 
 ## Saltos para revisar (primeros 10)
 - 2021-12-07 14:00 UTC
