@@ -1,0 +1,37 @@
+{
+  "_aviso": "NÚMEROS DE EJEMPLO (placeholders). No son las reglas de ninguna empresa real. Antes de usar el simulador, copia cada número de las reglas oficiales VIGENTES de la empresa que te interesa (web oficial, sección de reglas/FAQ, con fecha) y crea tu propio perfil. Las reglas cambian a menudo.",
+  "_como_editar": "Copia un perfil, cámbiale el nombre (p. ej. cfd_empresa_x) y edita sus números. Los % son sobre el tamaño inicial de la cuenta. Pon null en lo que la empresa no tenga.",
+  "cfd_generico": {
+    "descripcion": "Reto genérico de CFD (índices/forex) en una fase: pérdida diaria y pérdida total fijas.",
+    "fuente": "PLACEHOLDER: copia aquí la URL y la fecha de las reglas oficiales",
+    "cuenta": 100000,
+    "objetivo_pct": 8.0,
+    "perdida_diaria_max_pct": 5.0,
+    "base_perdida_diaria": "saldo_inicio_dia",
+    "perdida_total_max_pct": 10.0,
+    "tipo_perdida_total": "estatica",
+    "caida_arrastrada_pct": null,
+    "dias_minimos": 4,
+    "dias_maximos": null,
+    "consistencia_max_dia_pct": null,
+    "costo_reto": 500,
+    "tipo_costo": "unico"
+  },
+  "futuros_generico": {
+    "descripcion": "Evaluación genérica de futuros: caída arrastrada (trailing) sobre el saldo de cierre, cuota mensual y regla de consistencia opcional.",
+    "fuente": "PLACEHOLDER: copia aquí la URL y la fecha de las reglas oficiales",
+    "cuenta": 50000,
+    "objetivo_pct": 6.0,
+    "perdida_diaria_max_pct": null,
+    "base_perdida_diaria": "saldo_inicio_dia",
+    "perdida_total_max_pct": null,
+    "tipo_perdida_total": "estatica",
+    "caida_arrastrada_pct": 4.0,
+    "arrastrada_se_congela_en_pct": 0.0,
+    "dias_minimos": 5,
+    "dias_maximos": null,
+    "consistencia_max_dia_pct": 50.0,
+    "costo_reto": 150,
+    "tipo_costo": "mensual"
+  }
+}

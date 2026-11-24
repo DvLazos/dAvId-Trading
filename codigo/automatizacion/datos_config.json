@@ -1,0 +1,153 @@
+{
+  "_nota": "Lista de CSV diarios que actualizar_datos.py mantiene al día. Para añadir uno: copia una entrada y cambia archivo y ticker. activo=false lo salta sin borrarlo.",
+  "parametros": {
+    "fuente": "yahoo",
+    "ajuste": "auto_adjust=True (precios ajustados por splits y dividendos, igual que los CSV actuales) (supuesto)",
+    "solape_velas": 5,
+    "tolerancia_solape_pct": 0.5,
+    "salto_max_pct": 25.0,
+    "hueco_max_dias_habiles": 1,
+    "hora_cierre_nueva_york": "16:30",
+    "respaldos_max_por_archivo": 5
+  },
+  "archivos": [
+    {
+      "archivo": "datos/AAPL_1D.csv",
+      "ticker": "AAPL",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/ADBE_1D.csv",
+      "ticker": "ADBE",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/AMD_1D.csv",
+      "ticker": "AMD",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/AMGN_1D.csv",
+      "ticker": "AMGN",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/AMZN_1D.csv",
+      "ticker": "AMZN",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/AVGO_1D.csv",
+      "ticker": "AVGO",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/CMCSA_1D.csv",
+      "ticker": "CMCSA",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/COST_1D.csv",
+      "ticker": "COST",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/CSCO_1D.csv",
+      "ticker": "CSCO",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/GOOGL_1D.csv",
+      "ticker": "GOOGL",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/HON_1D.csv",
+      "ticker": "HON",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/INTC_1D.csv",
+      "ticker": "INTC",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/INTU_1D.csv",
+      "ticker": "INTU",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/META_1D.csv",
+      "ticker": "META",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/MSFT_1D.csv",
+      "ticker": "MSFT",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/MU_1D.csv",
+      "ticker": "MU",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/NVDA_1D.csv",
+      "ticker": "NVDA",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/PEP_1D.csv",
+      "ticker": "PEP",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/QCOM_1D.csv",
+      "ticker": "QCOM",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/TMUS_1D.csv",
+      "ticker": "TMUS",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/TSLA_1D.csv",
+      "ticker": "TSLA",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/TXN_1D.csv",
+      "ticker": "TXN",
+      "fuente": "yahoo",
+      "activo": true
+    },
+    {
+      "archivo": "datos/WMT_1D.csv",
+      "ticker": "WMT",
+      "fuente": "yahoo",
+      "activo": true
+    }
+  ]
+}
