@@ -1,6 +1,4 @@
 {
   "chat.useAgentsMdFile": true,
-  "chat.useClaudeMdFile": false,
-  "python-envs.defaultEnvManager": "ms-python.python:system",
-  "python.terminal.useEnvFile": true
+  "chat.useClaudeMdFile": false
 }
